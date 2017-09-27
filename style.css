@@ -1,0 +1,29 @@
+.identite{
+  background-color: #2574A9;
+}
+
+.coordonnees{
+  background-color: #9A12B3;
+}
+
+.paiement{
+  background-color: #DB0A5B;
+}
+*
+.titre1{
+  background-color: #2574A9;
+  margin-left:50px;
+  width: 100px;
+}
+
+.titre2{
+  background-color: #9A12B3;
+  margin-left:50px;
+  width: 140px;
+}
+
+.titre3{
+  background-color: #DB0A5B;
+  margin-left:50px;
+  width: 175px;
+}

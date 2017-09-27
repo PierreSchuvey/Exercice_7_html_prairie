@@ -1,0 +1,82 @@
+<html>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css" />
+
+<head>
+  <title>Exercice 3 Html</title>
+</head>
+
+<body>
+  <div class="titre1">Votre indentité</div>
+  <div class="identite">
+    <div class="titre1"><br/></div>
+    <form method="post" action="traitement.php">
+
+      <p>
+        <label for="nom">1. Nom</label>
+        <input type="text" name="pseudo" placeholder="Nom" />
+        <br />
+        <label for="prenom">2. Prénom</label>
+        <input type="text" name="pass" placeholder="Prénom" />
+        <br/>
+        <label for="mail">2. Adresse Mail</label>
+        <input type="text" name="pass" placeholder="Adresse mail" />
+        <br />
+        <br />
+      </p>
+    </form>
+  </div>
+  <div class="titre2">Adresse de livraison</div>
+  <div class="coordonnees">
+    <div class="titre2"><br /></div>
+    <form method="post" action="traitement.php">
+      <p>
+        <label for="adresse">1. Adresse</label>
+        <textarea rows="4" cols="50"></textarea>
+        <br />
+        <label for="cp">2. Code postal</label>
+        <input type="number" name="cp" placeholder="Code postal" />
+        <br/>
+        <label for="ville">2. Ville</label>
+        <input type="text" name="ville" placeholder="Ville" />
+        <br />
+        <br />
+      </p>
+    </form>
+  </div>
+  <div class="titre3">informations de réglement</div>
+  <div class="paiement">
+    <div class="titre3"><br /></div>
+    <form method="post" action="traitement.php">
+      <p>Information de réglements
+        <p>
+          <p>
+            <p>1. Type de carte bancaire</p>
+            <input type="radio" name="cb" value="VISA">
+            <label for="visa">VISA</label>
+            <br/>
+            <input type="radio" id="genderChoice2" name="cb2" value="Master card" >
+            <label for="mc">Master Card</label>
+            <br />
+            <br/>
+            <label for="nbcard">2. Numéro de carte</label>
+            <input type="number" name="cp" placeholder="Numéro de carte" />
+            <br/>
+            <br />
+            <label for="psw">3. Code de sécurité</label>
+            <input type="password" name="cp" placeholder="Code de sécurité" />
+            <br />
+            <br />
+            <label for="nomtit">4. Nom du titulaire</label>
+            <input type="text" name="nomtit" placeholder="Nom du titulaire" />
+            <br />
+            <br />
+          </p>
+  </div>
+
+  <INPUT TYPE="submit" NAME="submit" VALUE="J'achète !">
+  </form>
+
+</body>
+
+</html>
